@@ -15,82 +15,119 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+
 body {
     background-color: white;
     background-color: rgb(19,193,229);
-    /*background-repeat: no-repeat;
-    background-position: center; 
-    background-image: url('https://asset.essayvikings.com/bundles/asterfreelance/_layout/images/EssayvikingsCom/intro@1.5x.png?1496319979');*/
-}
-#sidebar-wrapper{
-    background-color: white;
-     font-family: Arial Rounded MT Bold;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-#cpter1 {
-color:rgb(237,18,117); 
+footer{
+    margin-top: 10px;
+    text-align: center;
 }
-#cpter2 {
-color:rgb(216,13,19); 
+
+/*#draggableButtonStar{
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-image: url('https://asset.essayvikings.com/bundles/asterfreelance/_layout/images/EssayvikingsCom/intro@1.5x.png?1496319979');
+}*/
+
+/*remove shadow in the carosel controls*/
+.carousel-control.left, .carousel-control.right {
+    background-image: none
 }
-#cpter3 {
-color:rgb(255,100,0); 
+
+
+#myCarousel{
+    width:100%;
+    height: 600px;
+        margin: auto;
+    display: block;
 }
-#cpter4 {
-color:rgb(255,192,0); 
+
+iframe{
+    width:75%;
+    height: 600px;
+    margin: auto;
+    display: block;
 }
-#cpter5{
-color:rgb(26,117,5); 
+
+.btn{
+    position: fixed;
 }
-#cpter6 {
-color:rgb(0,147,184); 
+
+#sidebar-wrapper{
+    background-color: white;
+    font-family: Arial Rounded MT Bold;
 }
-#cpter7 {
-color:rgb(61,41,108); 
+
+#chapter1 {
+    color:rgb(237,18,117);
+}
+#chapter2 {
+    color:rgb(216,13,19);
+}
+#chapter3 {
+    color:rgb(255,100,0);
+}
+#chapter4 {
+    color:rgb(255,192,0);
+}
+#chapter5 {
+    color:rgb(26,117,5);
+}
+#chapter6 {
+    color:rgb(0,147,184);
+}
+#chapter7 {
+    color:rgb(61,41,108);
+}
+
+#menu-toggle{
+    font-family: Arial Rounded MT Bold;
+    margin:0px;
+}
+
+#navBar{
+    height:45px;
+    /*background-color: #abaef5;*/
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#lang {
+    color: white;
+    font-family: Arial Rounded MT Bold;
+    text-align: right;
+    font-size: 12px;
 }
 
 h1 {
-    /*background-color: rgb(19,193,229);*/
     color:#f2f569;
     font-family: Arial Rounded MT Bold;
     font-size: 600%;
     text-align: right;
     background-repeat: no-repeat;
-    background-position: center; 
-    height:670px; 
+    background-position: center;
+    height:670px;
     width:100%;
-    background-image: url('https://asset.essayvikings.com/bundles/asterfreelance/_layout/images/EssayvikingsCom/intro@1.5x.png?1496319979');
 }
 
-
-#menu-toggle{
-font-family: Arial Rounded MT Bold;
-margin-top:5px;
+.themeImgContainer {
+    padding-top: 25px;
 
 }
 
-
-
-#navBar{
-    height:45px; 
-    width:100%;
-    background-color: #abaef5;
-    /*margin: 0 !important;
-    padding: 0 !important;*/
-}
-#chapter{
-    padding: 2cm 2cm 2cm 2cm;
+.chapters {
+    margin-right: 20px;
 }
 
-#lang{
-color: white;
-font-family:Lucida Grande;
-float:right;
-font-size: 16px;
-}
-
-footer{
-    text-align: center;
+.img-circle {
+    height:250px;
+    width: 355px;
+    margin-bottom: 10px;
 }
 
 /*
@@ -136,7 +173,7 @@ iframe,
 img,
 svg,
 video {
-    vertical-align: middle;
+    align-items: center;
 }
 
 /*
@@ -181,19 +218,6 @@ button {
     top: 5px;
     left: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
