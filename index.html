@@ -17,6 +17,7 @@
         <!-- Place favicon.ico in the root directory -->
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -60,33 +61,45 @@
 
             <!-- Page Content -->
             <div id="page-content-wrapper"  class="container-fluid" >
-                <div id="navBar" class="row">
-                    <div class="col-lg-10">
-                        <a href="#menu-toggle" class="btn btn-info btn-md" id="menu-toggle">
+                <div id="navBar" class="row col-lg-2">
+                    <div >
+                        <a href="#menu-toggle" class="btn btn-warning btn-md" id="menu-toggle">
                             <span class="glyphicon glyphicon-align-justify"></span> Menu
                         </a>
                     </div>
-                     <div id="lang" class="col-lg-2">
-                         <ul class="list-unstyled">
-                             <li>English</li>
-                             <li>Español</li>
-                         </ul>
-                    </div>
                 </div>
-                <!--Banner Image-->
-                <div class="row">
-                    <div class="col-lg-4 themeImgContainer">
-                       <img src="https://asset.essayvikings.com/bundles/asterfreelance/_layout/images/EssayvikingsCom/intro@1.5x.png?1496319979">
-                    </div>
-                    <div class="col-lg-8">
-                        <h1>Diabetes Toturial <br>For Kids.</h1>
-                    </div>
+            </div>
+
+ <section id="home"> 
+        <div class="container col-lg-12">
+          <!--               moved the lang choice out of navbar cuz navbar is fixed this wont -->
+                 <div id="lang">
+                           <a id="lang" href="index.html">English</a>
+                      <p id="lang">&nbsp|&nbsp</p>
+                            <a id="lang" href="index.html">Español</a>   
                 </div>
+            <h1 class="landing-title">Diabetes Toturial For Kids</h1>
+              <p class="lead"><font size="6">To help you learn it, fight it and be strong about it <span id="curser">:)</span></font></p>
+
+           <center><img align="middle" src="https://asset.essayvikings.com/bundles/asterfreelance/_layout/images/EssayvikingsCom/intro@1.5x.png?1496319979"></center>
+
+           <div class="row"><!-- arrow -->
+                  <center>
+                    <a href="#chapters">
+                      <i class="arrow fa fa-angle-down fa-5x" target="_blank" aria-hidden="true"></i>
+                    </a>
+                  </center>
+           </div>
+    </div>
+</section>
+
+
+
 
                 <!--All the links to chapters-->
                 <div class="col-lg-12 chapters">
                     <div class="col-lg-4 col-md-6">
-                        <img src="https://empxtrack.com/wp-content/uploads/2015/06/business_1-e1434531778480-700x400.jpg" class="img-circle">
+                        <img src="https://empxtrack.com/wp-content/uploads/2015/06/business_1-e1434531778480-700x400.jpg" class="img-circle" >
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <img src="https://www.gamedevmarket.net/media/get/cc_ec279507037fff700764acdb8b070489929c95a2.jpg" class="img-circle">
@@ -107,11 +120,14 @@
 
                 <!--Footer-->
                 <div id="footer" class="col-lg-12">
-                    <footer>
-                        <p>© 2017 Company, Inc.</p>
+                  <footer id="created">
+                      <p><font size="3">&copy 2017</font></p>
+                      <p><font size="3">Built with HTML5, CSS3, <a id="created" href="http://getbootstrap.com">Boostrap</a>, jQuery & JavaScript</font></p>
                     </footer>
 
                 </div>
+
+
             </div>
             <!-- /#page-content-wrapper -->
 

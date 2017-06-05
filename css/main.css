@@ -21,11 +21,16 @@ body {
     background-color: rgb(19,193,229);
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0; 
+    padding: 0;
 }
 
 footer{
-    margin-top: 10px;
+    height:100px;
     text-align: center;
+    font-family:Lucida Grande;
+    /*background-color: black;*/    
+    width: 100%;
 }
 
 /*#draggableButtonStar{
@@ -39,12 +44,54 @@ footer{
     background-image: none
 }
 
+.lead{
+    font-family: Arial Rounded MT Bold;
+    color: white;
+    text-align: center;
+}
+#home{
+
+   width:100%;
+}
 
 #myCarousel{
+    position:absolute;
+    left:0;
+    right:0;
+    top:100px;
     width:100%;
     height: 600px;
-        margin: auto;
+    margin: 0 auto;
     display: block;
+}
+
+.container{
+    margin:0px;
+}
+
+.arrow {
+    position: absolute;
+    opacity: .57;
+}
+.arrow, i {
+    color: black;
+    /*align-items: center;*/
+}
+
+h1.landing-title{
+    
+    color:rgb(255,253,57);
+    font-family: Arial Rounded MT Bold;
+    font-size: 600%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center; 
+
+
+
+/*    height:670px; 
+    width:100%;*/
+    /*background-image: url('https://asset.essayvikings.com/bundles/asterfreelance/_layout/images/EssayvikingsCom/intro@1.5x.png?1496319979');*/
 }
 
 iframe{
@@ -87,11 +134,12 @@ iframe{
 
 #menu-toggle{
     font-family: Arial Rounded MT Bold;
-    margin:0px;
+    margin:5px;
 }
 
 #navBar{
     height:45px;
+    position: fixed;
     /*background-color: #abaef5;*/
     margin: 0 !important;
     padding: 0 !important;
@@ -100,28 +148,14 @@ iframe{
 #lang {
     color: white;
     font-family: Arial Rounded MT Bold;
-    text-align: right;
-    font-size: 12px;
+    float:right;
+    font-size: 15px;
 }
 
-h1 {
-    color:#f2f569;
-    font-family: Arial Rounded MT Bold;
-    font-size: 600%;
-    text-align: right;
-    background-repeat: no-repeat;
-    background-position: center;
-    height:670px;
-    width:100%;
-}
-
-.themeImgContainer {
-    padding-top: 25px;
-
-}
 
 .chapters {
     margin-right: 20px;
+     position:relative;
 }
 
 .img-circle {
