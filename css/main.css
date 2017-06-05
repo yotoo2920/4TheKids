@@ -15,38 +15,49 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+
 body {
     background-color: white;
     background-color: rgb(19,193,229);
     /*background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
     background-image: url('https://asset.essayvikings.com/bundles/asterfreelance/_layout/images/EssayvikingsCom/intro@1.5x.png?1496319979');*/
 }
+
+footer{
+    margin-top: 10px;
+    text-align: center;
+}
+
 #sidebar-wrapper{
     background-color: white;
      font-family: Arial Rounded MT Bold;
 }
 
+#chapter{
+    padding: 2cm 2cm 2cm 2cm;
+}
+
 #cpter1 {
-color:rgb(237,18,117); 
+color:rgb(237,18,117);
 }
 #cpter2 {
-color:rgb(216,13,19); 
+color:rgb(216,13,19);
 }
 #cpter3 {
-color:rgb(255,100,0); 
+color:rgb(255,100,0);
 }
 #cpter4 {
-color:rgb(255,192,0); 
+color:rgb(255,192,0);
 }
 #cpter5{
-color:rgb(26,117,5); 
+color:rgb(26,117,5);
 }
 #cpter6 {
-color:rgb(0,147,184); 
+color:rgb(0,147,184);
 }
 #cpter7 {
-color:rgb(61,41,108); 
+color:rgb(61,41,108);
 }
 
 h1 {
@@ -56,8 +67,8 @@ h1 {
     font-size: 600%;
     text-align: right;
     background-repeat: no-repeat;
-    background-position: center; 
-    height:670px; 
+    background-position: center;
+    height:670px;
     width:100%;
     background-image: url('https://asset.essayvikings.com/bundles/asterfreelance/_layout/images/EssayvikingsCom/intro@1.5x.png?1496319979');
 }
@@ -69,28 +80,19 @@ margin-top:5px;
 
 }
 
-
-
 #navBar{
-    height:45px; 
+    height:45px;
     width:100%;
-    background-color: #abaef5;
+    /*background-color: #abaef5;*/
     /*margin: 0 !important;
     padding: 0 !important;*/
-}
-#chapter{
-    padding: 2cm 2cm 2cm 2cm;
 }
 
 #lang{
 color: white;
 font-family:Lucida Grande;
 float:right;
-font-size: 16px;
-}
-
-footer{
-    text-align: center;
+font-size: 12px;
 }
 
 /*
@@ -181,19 +183,6 @@ button {
     top: 5px;
     left: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
