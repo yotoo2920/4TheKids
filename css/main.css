@@ -25,12 +25,15 @@ body {
     padding: 0;
 }
 
-footer{
+footer, #created{
     height:100px;
     text-align: center;
-    font-family:Lucida Grande;
-    /*background-color: black;*/    
+    font-family:Lucida Grande;  
     width: 100%;
+    position: relative;
+    top:140px;
+
+
 }
 
 /*#draggableButtonStar{
@@ -156,6 +159,7 @@ iframe{
 .chapters {
     margin-right: 20px;
      position:relative;
+     top:100px;
 }
 
 .img-circle {
