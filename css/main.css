@@ -21,6 +21,7 @@ body {
     background-color: rgb(19,193,229);
     background-repeat: no-repeat;
     background-position: center;
+<<<<<<< HEAD
     margin: 0; 
     padding: 0;
 }
@@ -97,10 +98,68 @@ footer{
 .landing-title{
     
     color:rgb(255,253,57);
+=======
+}
+
+footer{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#sidebar-wrapper{
+    background-color: white;
+    font-family: Arial Rounded MT Bold;
+}
+
+#chapter1 {
+    color:rgb(237,18,117);
+}
+#chapter2 {
+    color:rgb(216,13,19);
+}
+#chapter3 {
+    color:rgb(255,100,0);
+}
+#chapter4 {
+    color:rgb(255,192,0);
+}
+#chapter5 {
+    color:rgb(26,117,5);
+}
+#chapter6 {
+    color:rgb(0,147,184);
+}
+#chapter7 {
+    color:rgb(61,41,108);
+}
+
+#menu-toggle{
+    font-family: Arial Rounded MT Bold;
+    margin:0px;
+}
+
+#navBar{
+    height:45px;
+    /*background-color: #abaef5;*/
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#lang {
+    color: white;
+    font-family: Arial Rounded MT Bold;
+    text-align: right;
+    font-size: 12px;
+}
+
+h1 {
+    color:#f2f569;
+>>>>>>> master
     font-family: Arial Rounded MT Bold;
     font-size: 600%;
     text-align: center;
     background-repeat: no-repeat;
+<<<<<<< HEAD
     background-position: center; 
 
 
@@ -121,12 +180,22 @@ iframe{
 .btn{
     position: fixed;
 }
+=======
+    background-position: center;
+    height:670px;
+    width:100%;
+}
+
+.themeImgContainer {
+    padding-top: 25px;
+>>>>>>> master
 
 #sidebar-wrapper{
     background-color: white;
     font-family: Arial Rounded MT Bold;
 }
 
+<<<<<<< HEAD
 #chapter1 {
     color:rgb(237,18,117);
 }
@@ -184,10 +253,17 @@ iframe{
      z-index: 1;
 }
 
+=======
+.chapters {
+    margin-right: 20px;
+}
+
+>>>>>>> master
 .img-circle {
     height:250px;
     width: 355px;
     margin-bottom: 10px;
+<<<<<<< HEAD
 }
 
 a#title:link, a#title:visited {
@@ -298,6 +374,8 @@ img:hover{
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
+=======
+>>>>>>> master
 }
 
 /*
