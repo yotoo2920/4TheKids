@@ -84,6 +84,34 @@
 // // //         shadowOffsetY: 5
 // // //     });
 // // // });
+
+// scrtoll to top func
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+// pop up func
+
+
+function popFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}
+
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+    document.documentElement.scrollTop = 0; // For IE and Firefox
+}
+
 // curser functino
 $(document).ready(function() {
     setInterval ('cursorAnimation0()', 1500);
@@ -119,8 +147,8 @@ function cursorAnimation0() {
     */
     var imageObj = new Image();
     var blueHex = new Konva.Image({
-        x: stage.getWidth() / 2,
-        y: stage.getHeight() / 2,
+        x: stage.getWidth() / 3,
+        y: stage.getHeight() / 4,
         image: imageObj,
         draggable: true
     });
@@ -134,7 +162,7 @@ function cursorAnimation0() {
     stage.add(layer);
     var period = 2000;
     var anim = new Konva.Animation(function(frame) {
-        var scale = (3+Math.sin(frame.time * 2 * Math.PI / period))/5;
+        var scale = (8+Math.sin(frame.time * 2 * Math.PI / period))/40;
         // scale x and y
         blueHex.scale({ x :scale, y : scale});
 
