@@ -106,19 +106,48 @@ $('#smooth').on('click', function(e) {
 
 });
 
+
 // scrtoll to top func
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+// window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-        
-    } else {
-        document.getElementById("myBtn").style.display = "none";
+// function scrollFunction() {
+//     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//         document.getElementById("myBtn").style.display = "block";
+
+//     } else {
+//         document.getElementById("myBtn").style.display = "none";
+//     }
+// }
+
+var t1=0;
+window.onscroll = function() {scroll1()};
+
+function scroll1()
+{
+    var toTop = document.getElementById("myBtn");
+    (document.body.scrollTop > 20 || document.documentElement.scrollTop >20)? toTop.style.display="block" :  toTop.style.display="none";
+}
+
+function scrollTopSmooth()
+{
+    var y = window.scrollY;
+    y = y-600;
+    window.scrollTo(0,y);
+    if(y>0)
+    {
+        t1 = setTimeout("scrollTopSmooth()",80);  
+    }
+    else
+    {
+        clearTimeout(t1);   
     }
 }
+
+
+
+
 // pop up func
 
 
