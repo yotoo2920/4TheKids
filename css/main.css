@@ -87,6 +87,7 @@ footer{
 .arrow {
     position: absolute;
     opacity: .57;
+    z-index: 1;
 }
 .arrow, i {
     color: black;
@@ -154,11 +155,10 @@ iframe{
 }
 
 #navBar{
-    height:45px;
-    position: fixed;
-    /*background-color: #abaef5;*/
+
     margin: 0 !important;
     padding: 0 !important;
+    z-index: 1;
 }
 
 #lang {
@@ -181,6 +181,7 @@ iframe{
     margin-right: 20px;
      position:relative;
      top:120px;
+     z-index: 1;
 }
 
 .img-circle {
@@ -188,6 +189,7 @@ iframe{
     width: 355px;
     margin-bottom: 10px;
 }
+
 a#title:link, a#title:visited {
     color: yellow;
     text-align: center;
