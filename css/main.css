@@ -21,6 +21,84 @@ body {
     background-color: rgb(19,193,229);
     background-repeat: no-repeat;
     background-position: center;
+<<<<<<< HEAD
+    margin: 0; 
+    padding: 0;
+}
+
+footer{
+    color:#cbcade;
+    height:100px;
+    text-align: center;
+    font-family:Lucida Grande;  
+    width: 100%;
+    position: relative;
+    top:150px;
+
+}
+
+ #created{
+    color:#cbcade;
+    font-family:Lucida Grande;
+ }
+
+
+/*#draggableButtonStar{
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-image: url('https://asset.essayvikings.com/bundles/asterfreelance/_layout/images/EssayvikingsCom/intro@1.5x.png?1496319979');
+}*/
+
+/*remove shadow in the carosel controls*/
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+/*#page-content-wrapper{
+    position:absolute;
+    top:0px;
+
+}*/
+
+.lead{
+    font-family: Arial Rounded MT Bold;
+    color: white;
+    text-align: center;
+}
+#home{
+
+   width:100%;
+}
+
+#myCarousel{
+    position:absolute;
+    left:0;
+    right:0;
+    top:100px;
+    width:100%;
+    height: 600px;
+    margin: 0 auto;
+    display: block;
+}
+
+.container{
+    margin:0px;
+}
+
+.arrow {
+    position: absolute;
+    opacity: .57;
+    z-index: 1;
+}
+.arrow, i {
+    color: black;
+    /*align-items: center;*/
+}
+
+.landing-title{
+    
+    color:rgb(255,253,57);
+=======
 }
 
 footer{
@@ -76,10 +154,33 @@ footer{
 
 h1 {
     color:#f2f569;
+>>>>>>> master
     font-family: Arial Rounded MT Bold;
     font-size: 600%;
-    text-align: right;
+    text-align: center;
     background-repeat: no-repeat;
+<<<<<<< HEAD
+    background-position: center; 
+
+
+
+/*    height:670px; 
+    width:100%;*/
+    /*background-image: url('https://asset.essayvikings.com/bundles/asterfreelance/_layout/images/EssayvikingsCom/intro@1.5x.png?1496319979');*/
+}
+
+/*for videos*/
+iframe{
+    width:75%;
+    height: 600px;
+    margin: auto;
+    display: block;
+}
+
+.btn{
+    position: fixed;
+}
+=======
     background-position: center;
     height:670px;
     width:100%;
@@ -87,17 +188,194 @@ h1 {
 
 .themeImgContainer {
     padding-top: 25px;
+>>>>>>> master
 
+#sidebar-wrapper{
+    background-color: white;
+    font-family: Arial Rounded MT Bold;
 }
 
+<<<<<<< HEAD
+#chapter1 {
+    color:rgb(237,18,117);
+}
+#chapter2 {
+    color:rgb(216,13,19);
+}
+#chapter3 {
+    color:rgb(255,100,0);
+}
+#chapter4 {
+    color:rgb(255,192,0);
+}
+#chapter5 {
+    color:rgb(26,117,5);
+}
+#chapter6 {
+    color:rgb(0,147,184);
+}
+#chapter7 {
+    color:rgb(61,41,108);
+}
+
+#menu-toggle{
+    font-family: Arial Rounded MT Bold;
+    margin:5px;
+}
+
+#navBar{
+
+    margin: 0 !important;
+    padding: 0 !important;
+    z-index: 1;
+}
+
+#lang {
+    color: orange;
+    /*hotpink;*/
+    font-family: Arial Rounded MT Bold;
+    float:right;
+    font-size: 15px;
+}
+
+#lang2 {
+    color: green;
+    font-family: Arial Rounded MT Bold;
+    float:right;
+    font-size: 15px;
+}
+
+
+.chapters {
+    margin-right: 20px;
+     position:relative;
+     top:120px;
+     z-index: 1;
+}
+
+=======
 .chapters {
     margin-right: 20px;
 }
 
+>>>>>>> master
 .img-circle {
     height:250px;
     width: 355px;
     margin-bottom: 10px;
+<<<<<<< HEAD
+}
+
+a#title:link, a#title:visited {
+    color: yellow;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a#title:hover, a#title:active {
+     color: #f0b875;
+     /*light orangee*/
+}
+
+/*a#lang:link, a#lang:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 3px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a#lang:hover, a:active {
+    background-color: red;
+}*/
+
+/*scroll to top button*/
+#myBtn {
+
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgba(255, 255, 255, 0.2);
+     /* Set a background color */
+    color: black; /* Text color*/
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+   background-color: rgba(144, 144, 144, 0.3);/* Add a dark-grey background on hover */
+    color: white;
+}
+
+
+img:hover{
+    opacity: 0.7;
+}
+
+/*pop up */
+
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+=======
+>>>>>>> master
 }
 
 /*
@@ -300,30 +578,33 @@ button {
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
+/*
     a,
     a:visited {
-        text-decoration: underline;
+        text-decoration: none;
     }
+
+
 
     a[href]:after {
         content: " (" attr(href) ")";
-    }
-
+    }*/
+/*
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
+*/
 
     /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
 
-    a[href^="#"]:after,
+/*    a[href^="#"]:after,
     a[href^="javascript:"]:after {
         content: "";
     }
-
+*/
     pre,
     blockquote {
         border: 1px solid #999;
@@ -359,4 +640,8 @@ button {
     h3 {
         page-break-after: avoid;
     }
+
+
 }
+
+
