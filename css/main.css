@@ -25,16 +25,22 @@ body {
     padding: 0;
 }
 
-footer, #created{
+footer{
+    color:#cbcade;
     height:100px;
     text-align: center;
     font-family:Lucida Grande;  
     width: 100%;
     position: relative;
-    top:140px;
-
+    top:150px;
 
 }
+
+ #created{
+    color:#cbcade;
+    font-family:Lucida Grande;
+ }
+
 
 /*#draggableButtonStar{
     background-repeat: no-repeat;
@@ -87,7 +93,7 @@ footer, #created{
     /*align-items: center;*/
 }
 
-h1.landing-title{
+.landing-title{
     
     color:rgb(255,253,57);
     font-family: Arial Rounded MT Bold;
@@ -103,6 +109,7 @@ h1.landing-title{
     /*background-image: url('https://asset.essayvikings.com/bundles/asterfreelance/_layout/images/EssayvikingsCom/intro@1.5x.png?1496319979');*/
 }
 
+/*for videos*/
 iframe{
     width:75%;
     height: 600px;
@@ -155,7 +162,15 @@ iframe{
 }
 
 #lang {
-    color: white;
+    color: orange;
+    /*hotpink;*/
+    font-family: Arial Rounded MT Bold;
+    float:right;
+    font-size: 15px;
+}
+
+#lang2 {
+    color: green;
     font-family: Arial Rounded MT Bold;
     float:right;
     font-size: 15px;
@@ -173,7 +188,32 @@ iframe{
     width: 355px;
     margin-bottom: 10px;
 }
+a#title:link, a#title:visited {
+    color: yellow;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
 
+
+a#title:hover, a#title:active {
+     color: #f0b875;
+     /*light orangee*/
+}
+
+/*a#lang:link, a#lang:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 3px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a#lang:hover, a:active {
+    background-color: red;
+}*/
 
 /*scroll to top button*/
 #myBtn {
@@ -185,7 +225,8 @@ iframe{
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: rgba(255, 255, 255, 0.3); /* Set a background color */
+    background-color: rgba(255, 255, 255, 0.2);
+     /* Set a background color */
     color: black; /* Text color*/
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
@@ -193,17 +234,14 @@ iframe{
 }
 
 #myBtn:hover {
-    background-color: rgba(144, 144, 144, 0.5);  /* Add a dark-grey background on hover */
+   background-color: rgba(144, 144, 144, 0.3);/* Add a dark-grey background on hover */
+    color: white;
 }
 
-a:hover{
-    color:black;
-    background-color: #555;
-}
-
+/*
 img:hover{
     opacity: 0.5;
-}
+}*/
 
 /*pop up */
 
@@ -460,30 +498,33 @@ button {
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
+/*
     a,
     a:visited {
-        text-decoration: underline;
+        text-decoration: none;
     }
+
+
 
     a[href]:after {
         content: " (" attr(href) ")";
-    }
-
+    }*/
+/*
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
+*/
 
     /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
 
-    a[href^="#"]:after,
+/*    a[href^="#"]:after,
     a[href^="javascript:"]:after {
         content: "";
     }
-
+*/
     pre,
     blockquote {
         border: 1px solid #999;
@@ -519,4 +560,8 @@ button {
     h3 {
         page-break-after: avoid;
     }
+
+
 }
+
+
